@@ -1,0 +1,64 @@
+@import '../fonts/fonts.css';
+@import './normalize.css';
+
+:root {
+  --white: white;
+  --red: red;
+  --orange: orange;
+  --green: green;
+  --blue: blue;
+  --purple: purple;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--white);
+}
+
+/* .container {
+  
+} */
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title {
+  background-color: var(--red);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header__nav {
+  background-color: var(--orange);
+  padding: 7px 0 8px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  background-color: var(--green);
+  padding: 6px;
+}
+
+.main__article {
+  background-color: var(--blue);
+}
+
+.main__article:last-child {
+  margin-top: 3px;
+}
+
+.article_header,
+.article_list {
+  margin: 1px 5px 1px 5px;
+}
+
+.footer {
+  background-color: var(--purple);
+  padding: 7px 0 8px 0;
+  display: flex;
+  justify-content: center;
+}
