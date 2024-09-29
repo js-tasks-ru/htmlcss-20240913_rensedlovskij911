@@ -1,12 +1,16 @@
 /* Стилизация аккордеона */
 .accordion {
-  max-width: 730px;
 }
 
 .accordion__item {
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   margin-bottom: 8px;
+  padding: 24px 536px 24px 32px;
+}
+
+.accordion__item[open] {
+  padding: 24px 49px 32px 32px;
 }
 
 .accordion__item:last-child {
@@ -14,12 +18,11 @@
 }
 
 .accordion__summary {
-  display: inline;
-  padding: 10px;
+  display: block;
 }
 
 .accordion__info {
-  padding: 0 10px 10px 10px;
+  margin: 16px 0 0 0;
 }
 
 .accordion__summary::-webkit-details-marker {

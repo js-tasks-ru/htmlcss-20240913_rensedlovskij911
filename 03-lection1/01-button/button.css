@@ -1,25 +1,21 @@
-@import '../../assets/css/main.css';
-
 /* Стилизация кнопки */
 .button {
   border-radius: 8px;
-  width: 189px;
-  height: 48px;
-  margin: 1px;
   cursor: pointer;
+  color: var(--white);
+  border: 0;
+  padding: 15px 50px 14px 50px;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button:disabled {
   opacity: 0.5;
   pointer-events: none;
-  cursor: default;
 }
 
 .button_primary {
   background-color: var(--primary);
   border-color: var(--primary);
-  color: var(--white);
-  border: 0;
 }
 
 .button_primary:hover {
@@ -29,8 +25,6 @@
 .button_secondary {
   background-color: var(--secondary);
   border-color: var(--secondary);
-  color: var(--white);
-  border: 0;
 }
 
 .button_secondary:hover {
@@ -45,10 +39,4 @@
 
 .button_alternate:hover {
   border: 1px solid var(--grey-4);
-}
-
-.button_alternate,
-.button_primary,
-.button_secondary {
-  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
