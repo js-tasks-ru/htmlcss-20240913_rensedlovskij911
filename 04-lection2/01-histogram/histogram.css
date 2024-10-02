@@ -28,7 +28,7 @@
   line-height: 26px;
   color: #212429;
   margin: 0;
-  padding: 12px 0 39px 0;
+  padding: 8px 0 39px 0;
 }
 
 .histogram__filter {
@@ -40,10 +40,9 @@
 .histogram__chart {
   display: flex;
   flex-direction: row;
-  height: 100px;
-  justify-content: space-between;
+  height: 50px;
   align-items: flex-end;
-  gap: 2px;
+  gap: 1px;
 }
 
 .chart__column {
