@@ -9,18 +9,19 @@
   display: flex;
   justify-content: space-between;
 }
+
 .container__title {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-width: 400px;
+  padding: 8px 0 8px 16px;
 }
 
 .container__description {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-width: 500px;
+  /* padding: 24px 40px 32px 24px; */
 }
 
 .skeleton__avatar {
@@ -50,4 +51,8 @@
 
 .skeleton__description {
   margin-top: 8px;
+}
+
+.skeleton__description:first-child {
+  margin-top: 24px;
 }
