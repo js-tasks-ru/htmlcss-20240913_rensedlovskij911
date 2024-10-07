@@ -1,0 +1,53 @@
+.skeleton {
+  background: #ffffff;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  padding: 24px 40px 32px 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 400px;
+}
+
+.container__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 500px;
+}
+
+.skeleton__avatar {
+  background: var(--grey-2);
+  width: 64px;
+  height: 64px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 64px;
+}
+
+.skeleton__title,
+.skeleton__description {
+  background: linear-gradient(
+    92.51deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
+  );
+  height: 20px;
+}
+
+.skeleton__title {
+}
+
+.skeleton__description {
+  margin-top: 8px;
+}
