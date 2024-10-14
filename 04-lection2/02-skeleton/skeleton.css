@@ -1,0 +1,50 @@
+.skeleton {
+  background: #ffffff;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  padding: 24px 40px 32px 24px;
+}
+
+.skeleton__lines {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 8px 0 8px 16px;
+  gap: 8px;
+}
+
+.skeleton__box {
+  display: flex;
+  flex-direction: row;
+}
+
+.skeleton__avatar {
+  background: var(--grey-2);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.skeleton__line {
+  background: linear-gradient(
+    92.51deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
+  );
+  height: 20px;
+}
+
+.skeleton__line_small {
+  width: 40%;
+}
+
+.skeleton__line_medium {
+  width: 60%;
+}
+
+.skeleton__line_large {
+  width: 100%;
+}
