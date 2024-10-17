@@ -4,6 +4,7 @@
 @import '../../components/page/page.css';
 @import '../../components/container/container.css';
 @import '../../components/footer/footer.css';
+@import '../../components/card/card.css';
 @import '../../03-lection1/01-button/button.css';
 @import '../../03-lection1/02-accordion/accordion.css';
 @import '../../04-lection2/01-histogram/histogram.css';
@@ -27,6 +28,12 @@
   --secondary: var(--purple);
 }
 
-* {
+body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
 }

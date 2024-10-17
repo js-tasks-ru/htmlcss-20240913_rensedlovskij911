@@ -1,4 +1,10 @@
 .main {
+  padding: 68px 0 204px 0;
   background-color: #f9fafc;
-  height: 1000px;
+}
+
+.main__grid {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
 }
