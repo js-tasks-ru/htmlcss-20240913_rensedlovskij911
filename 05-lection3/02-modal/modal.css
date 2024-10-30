@@ -1,0 +1,21 @@
+.modal {
+  display: none;
+  background-color: rgba(196, 196, 196, 0.8);
+}
+
+.modal__body {
+  background-color: #fff;
+  padding: 30px 40px;
+}
+
+.modal__close {
+  position: absolute;
+}
+
+.modal__title {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
